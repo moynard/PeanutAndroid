@@ -1,0 +1,28 @@
+package com.peanut.whsystem;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.provider.SyncStateContract.Constants;
+import android.widget.TextView;
+
+public class MenuActivity extends Activity{
+public TextView txtMail;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.menu_activity);
+		txtMail = (TextView)findViewById(R.id.email);
+		SharedPreferences settings = getSharedPreferences(Constants.ACCOUNT_NAME, 0);
+        
+        String emaiuser = settings.getString("email",null);
+        txtMail.setText(emaiuser);
+
+		
+	}
+
+	
+}

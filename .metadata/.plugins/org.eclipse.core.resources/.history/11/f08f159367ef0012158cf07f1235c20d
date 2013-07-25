@@ -1,0 +1,25 @@
+package com.peanut.whsystem;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.widget.TextView;
+
+public class MenuActivity extends Activity{
+public TextView txtMail;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.menu_activity);
+		txtMail = (TextView)findViewById(R.id.email);
+        SharedPreferences prefe=getSharedPreferences("Usuario",Context.MODE_PRIVATE);
+        //txtMail.setText(prefe.getString("email", ""));
+
+		
+	}
+
+	
+}

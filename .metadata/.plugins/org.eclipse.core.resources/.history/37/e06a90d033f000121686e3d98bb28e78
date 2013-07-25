@@ -1,0 +1,48 @@
+package com.peanut.whsystem;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.preference.PreferenceManager;
+import android.provider.SyncStateContract.Constants;
+import android.widget.Button;
+import android.widget.TextView;
+
+public class MenuActivity extends Activity{
+public TextView txtMail;
+public String email;
+public Button btnarrivado;
+public Button btnPicklist;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.menu_activity);
+		txtMail = (TextView)findViewById(R.id.usermail);
+		btnPicklist =(Button)findViewById(R.id.picklistBtn);
+		btnarrivado =(Button)findViewById(R.id.ArrivdadosBtn);
+		SharedPreferences settings = getSharedPreferences("Datos", 0);
+
+	
+		txtMail.setText(settings.getString("email", defValue));
+		
+        
+	}
+	
+	
+	 @Override
+	protected void onStart() {
+		// TODO Auto-generated method stub
+		super.onStart();
+
+	}
+
+
+	private SharedPreferences getOurSharedPreferences(Activity act) {
+	        // return getSharedPreferences(SHARED_PREFS_FILENAME, MODE_PRIVATE);
+	        return act.getPreferences(MODE_PRIVATE);
+	    }
+	
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="33dp"
+        android:text="Bienvenido al sistema" />
+
+    <TextView
+        android:id="@+id/usermail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/txtNombre"
+        android:layout_below="@+id/txtNombre"
+        android:layout_marginRight="38dp"
+        android:layout_marginTop="16dp"
+      />
+
+    <Button
+        android:id="@+id/ArrivdadosBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/usermail"
+        android:layout_below="@+id/usermail"
+        android:layout_marginTop="124dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/picklistBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ArrivdadosBtn"
+        android:layout_below="@+id/usermail"
+        android:layout_marginTop="57dp"
+        android:text="Button" />
+
+</RelativeLayout>

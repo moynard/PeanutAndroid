@@ -1,0 +1,114 @@
+package com.peanut.model;
+
+
+public class Entradas {
+protected int idEntrada;
+protected int idMovimiento;
+protected int idSKU;
+protected String lote;
+protected int estado;
+protected String serie;
+protected String Fechalote;
+protected int cantidad;
+protected String unidad;
+protected String idUbicacion;
+
+// query de entradas 
+// Select id,idSKU,lote,serie,fechalote,cantidad,unidad,idUbicacion 
+//From Tentrada, where estado ="Arrivado".
+
+public Entradas(int idEntrada, int idMovimiento, int idSKU, String lote,
+		String estado, String serie, String fechalote, int cantidad,
+		String unidad, String idUbicacion, String notas, String registropor) {
+	super();
+	this.idEntrada = idEntrada;
+	this.idMovimiento = idMovimiento;
+	this.idSKU = idSKU;
+	this.lote = lote;
+	this.estado = estado;
+	this.serie = serie;
+	Fechalote = fechalote;
+	this.cantidad = cantidad;
+	this.unidad = unidad;
+	this.idUbicacion = idUbicacion;
+	this.notas = notas;
+	this.registropor = registropor;
+}
+public int getIdEntrada() {
+	return idEntrada;
+}
+public void setIdEntrada(int idEntrada) {
+	this.idEntrada = idEntrada;
+}
+public int getIdMovimiento() {
+	return idMovimiento;
+}
+public void setIdMovimiento(int idMovimiento) {
+	this.idMovimiento = idMovimiento;
+}
+public int getIdSKU() {
+	return idSKU;
+}
+public void setIdSKU(int idSKU) {
+	this.idSKU = idSKU;
+}
+public String getLote() {
+	return lote;
+}
+public void setLote(String lote) {
+	this.lote = lote;
+}
+public String getEstado() {
+	return estado;
+}
+public void setEstado(String estado) {
+	this.estado = estado;
+}
+public String getSerie() {
+	return serie;
+}
+public void setSerie(String serie) {
+	this.serie = serie;
+}
+public String getFechalote() {
+	return Fechalote;
+}
+public void setFechalote(String fechalote) {
+	Fechalote = fechalote;
+}
+public int getCantidad() {
+	return cantidad;
+}
+public void setCantidad(int cantidad) {
+	this.cantidad = cantidad;
+}
+public String getUnidad() {
+	return unidad;
+}
+public void setUnidad(String unidad) {
+	this.unidad = unidad;
+}
+public String getIdUbicacion() {
+	return idUbicacion;
+}
+public void setIdUbicacion(String idUbicacion) {
+	this.idUbicacion = idUbicacion;
+}
+public String getNotas() {
+	return notas;
+}
+public void setNotas(String notas) {
+	this.notas = notas;
+}
+public String getRegistropor() {
+	return registropor;
+}
+public void setRegistropor(String registropor) {
+	this.registropor = registropor;
+}
+
+
+
+
+
+}

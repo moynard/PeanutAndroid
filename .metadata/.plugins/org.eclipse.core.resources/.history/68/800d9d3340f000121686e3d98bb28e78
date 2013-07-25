@@ -1,0 +1,25 @@
+package com.peanut.model;
+
+
+public class Entradas {
+protected int idEntrada;
+protected int idMovimiento;
+protected int idSKU;
+protected String lote;
+protected int estado;
+protected String serie;
+protected String Fechalote;
+protected int cantidad;
+protected String unidad;
+protected String idUbicacion;
+protected String producto;
+protected String Fechamov;
+
+// query de entradas 
+// Select id,idSKU,lote,serie,fechalote,cantidad,unidad,idUbicacion 
+//From Tentrada, where estado ="Arrivado".
+
+
+
+
+}

@@ -14,3 +14,531 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.
 
 !ENTRY com.android.ide.eclipse.adt 4 0 2013-07-07 13:05:01.528
 !MESSAGE Failed to load properties file for project 'WHSStorekeeper'
+!SESSION 2013-07-08 18:55:16.515 -----------------------------------------------
+eclipse.buildId=v21.1.0-569685
+java.version=1.7.0_15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/moynard/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/moynard/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-07-08 18:55:18.936
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2013-07-10 23:49:09.820 -----------------------------------------------
+eclipse.buildId=v21.1.0-569685
+java.version=1.7.0_15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/moynard/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/moynard/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-07-10 23:49:26.301
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2013-07-12 20:11:26.626 -----------------------------------------------
+eclipse.buildId=v21.1.0-569685
+java.version=1.7.0_15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/moynard/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/moynard/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-07-12 20:11:47.430
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2013-07-17 00:47:04.286 -----------------------------------------------
+eclipse.buildId=v21.1.0-569685
+java.version=1.7.0_15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/moynard/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/moynard/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-07-17 00:47:26.146
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-07-17 01:19:17.723
+!MESSAGE No command output when running: 'am start -n com.peanut.whsystem/com.peanut.whsystem.MainActivity -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' on device 0123456789ABCDEF
+!STACK 0
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:408)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:453)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(ActivityLaunchAction.java:67)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(ActivityLaunchAction.java:109)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.doLaunchAction(AndroidLaunchController.java:1277)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.doLaunchAction(AndroidLaunchController.java:1289)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launchApp(AndroidLaunchController.java:1261)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.simpleLaunch(AndroidLaunchController.java:906)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.continueLaunch(AndroidLaunchController.java:748)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launch(AndroidLaunchController.java:570)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.doLaunch(LaunchConfigDelegate.java:322)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.launch(LaunchConfigDelegate.java:238)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-07-17 01:25:56.328
+!MESSAGE No command output when running: 'am start -n com.peanut.whsystem/com.peanut.whsystem.MainActivity -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' on device 0123456789ABCDEF
+!STACK 0
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:408)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:453)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(ActivityLaunchAction.java:67)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(ActivityLaunchAction.java:109)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.doLaunchAction(AndroidLaunchController.java:1277)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.doLaunchAction(AndroidLaunchController.java:1289)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launchApp(AndroidLaunchController.java:1261)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.simpleLaunch(AndroidLaunchController.java:906)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.continueLaunch(AndroidLaunchController.java:748)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launch(AndroidLaunchController.java:570)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.doLaunch(LaunchConfigDelegate.java:322)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.launch(LaunchConfigDelegate.java:238)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-07-17 01:37:04.187
+!MESSAGE No command output when running: 'am start -n com.peanut.whsystem/com.peanut.whsystem.MainActivity -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' on device 0123456789ABCDEF
+!STACK 0
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:408)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:453)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(ActivityLaunchAction.java:67)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(ActivityLaunchAction.java:109)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.doLaunchAction(AndroidLaunchController.java:1277)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.doLaunchAction(AndroidLaunchController.java:1289)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launchApp(AndroidLaunchController.java:1261)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.simpleLaunch(AndroidLaunchController.java:906)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.continueLaunch(AndroidLaunchController.java:748)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launch(AndroidLaunchController.java:570)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.doLaunch(LaunchConfigDelegate.java:322)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.launch(LaunchConfigDelegate.java:238)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2013-07-17 01:51:41.773 -----------------------------------------------
+eclipse.buildId=v21.1.0-569685
+java.version=1.7.0_15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/moynard/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/moynard/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-07-17 01:51:57.411
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.resources 4 2 2013-07-17 01:52:02.649
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at java.lang.String.<init>(String.java:168)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.conditionalArgumentsIncompatibleTypes(ProblemReporter.java:1335)
+	at org.eclipse.jdt.internal.compiler.ast.ConditionalExpression.resolveType(ConditionalExpression.java:556)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:374)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.resolve(Expression.java:947)
+	at org.eclipse.jdt.internal.compiler.ast.Block.resolve(Block.java:90)
+	at org.eclipse.jdt.internal.compiler.ast.IfStatement.resolve(IfStatement.java:260)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:456)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:252)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:415)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1148)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1258)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:539)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:763)
+	at org.eclipse.jdt.internal.compiler.ProcessTaskManager.run(ProcessTaskManager.java:137)
+	at java.lang.Thread.run(Thread.java:722)
+
+!ENTRY org.eclipse.core.resources 4 75 2013-07-17 01:52:05.256
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.jdt.core 4 75 2013-07-17 01:52:05.256
+!MESSAGE Errors running builder 'Java Builder' on project 'WHSStorekeeper'.
+!STACK 0
+java.lang.NullPointerException
+	at java.lang.String.<init>(String.java:168)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.conditionalArgumentsIncompatibleTypes(ProblemReporter.java:1335)
+	at org.eclipse.jdt.internal.compiler.ast.ConditionalExpression.resolveType(ConditionalExpression.java:556)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:374)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.resolve(Expression.java:947)
+	at org.eclipse.jdt.internal.compiler.ast.Block.resolve(Block.java:90)
+	at org.eclipse.jdt.internal.compiler.ast.IfStatement.resolve(IfStatement.java:260)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:456)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:252)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:415)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1148)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1258)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:539)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:763)
+	at org.eclipse.jdt.internal.compiler.ProcessTaskManager.run(ProcessTaskManager.java:137)
+	at java.lang.Thread.run(Thread.java:722)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-07-17 02:02:41.054
+!MESSAGE No command output when running: 'am start -n com.peanut.whsystem/com.peanut.whsystem.MainActivity -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' on device 0123456789ABCDEF
+!STACK 0
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:408)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:453)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(ActivityLaunchAction.java:67)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(ActivityLaunchAction.java:109)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.doLaunchAction(AndroidLaunchController.java:1277)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.doLaunchAction(AndroidLaunchController.java:1289)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launchApp(AndroidLaunchController.java:1261)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.simpleLaunch(AndroidLaunchController.java:906)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.continueLaunch(AndroidLaunchController.java:748)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launch(AndroidLaunchController.java:570)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.doLaunch(LaunchConfigDelegate.java:322)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.launch(LaunchConfigDelegate.java:238)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2013-07-17 14:21:29.200 -----------------------------------------------
+eclipse.buildId=v21.1.0-569685
+java.version=1.7.0_15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/moynard/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/moynard/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-07-17 14:22:17.483
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.resources 4 2 2013-07-17 14:22:20.621
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at java.lang.String.<init>(String.java:168)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.conditionalArgumentsIncompatibleTypes(ProblemReporter.java:1335)
+	at org.eclipse.jdt.internal.compiler.ast.ConditionalExpression.resolveType(ConditionalExpression.java:556)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:374)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.resolve(Expression.java:947)
+	at org.eclipse.jdt.internal.compiler.ast.Block.resolve(Block.java:90)
+	at org.eclipse.jdt.internal.compiler.ast.IfStatement.resolve(IfStatement.java:260)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:456)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:252)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:415)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1148)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1258)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:539)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:763)
+	at org.eclipse.jdt.internal.compiler.ProcessTaskManager.run(ProcessTaskManager.java:137)
+	at java.lang.Thread.run(Thread.java:722)
+
+!ENTRY org.eclipse.core.resources 4 75 2013-07-17 14:22:24.698
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.jdt.core 4 75 2013-07-17 14:22:24.698
+!MESSAGE Errors running builder 'Java Builder' on project 'WHSStorekeeper'.
+!STACK 0
+java.lang.NullPointerException
+	at java.lang.String.<init>(String.java:168)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.conditionalArgumentsIncompatibleTypes(ProblemReporter.java:1335)
+	at org.eclipse.jdt.internal.compiler.ast.ConditionalExpression.resolveType(ConditionalExpression.java:556)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:374)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.resolve(Expression.java:947)
+	at org.eclipse.jdt.internal.compiler.ast.Block.resolve(Block.java:90)
+	at org.eclipse.jdt.internal.compiler.ast.IfStatement.resolve(IfStatement.java:260)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:456)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:252)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:415)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1148)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1258)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:539)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:763)
+	at org.eclipse.jdt.internal.compiler.ProcessTaskManager.run(ProcessTaskManager.java:137)
+	at java.lang.Thread.run(Thread.java:722)
+
+!ENTRY org.eclipse.ui 4 4 2013-07-18 00:13:31.712
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ProblemView.
+!SESSION 2013-07-18 00:54:37.219 -----------------------------------------------
+eclipse.buildId=v21.1.0-569685
+java.version=1.7.0_15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/moynard/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/moynard/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-07-18 00:54:50.077
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.resources 4 2 2013-07-18 00:54:53.043
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at java.lang.String.<init>(String.java:168)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.conditionalArgumentsIncompatibleTypes(ProblemReporter.java:1335)
+	at org.eclipse.jdt.internal.compiler.ast.ConditionalExpression.resolveType(ConditionalExpression.java:556)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:374)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.resolve(Expression.java:947)
+	at org.eclipse.jdt.internal.compiler.ast.Block.resolve(Block.java:90)
+	at org.eclipse.jdt.internal.compiler.ast.IfStatement.resolve(IfStatement.java:260)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:456)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:252)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:415)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1148)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1258)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:539)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:763)
+	at org.eclipse.jdt.internal.compiler.ProcessTaskManager.run(ProcessTaskManager.java:137)
+	at java.lang.Thread.run(Thread.java:722)
+
+!ENTRY org.eclipse.core.resources 4 75 2013-07-18 00:54:55.490
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.jdt.core 4 75 2013-07-18 00:54:55.490
+!MESSAGE Errors running builder 'Java Builder' on project 'WHSStorekeeper'.
+!STACK 0
+java.lang.NullPointerException
+	at java.lang.String.<init>(String.java:168)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.conditionalArgumentsIncompatibleTypes(ProblemReporter.java:1335)
+	at org.eclipse.jdt.internal.compiler.ast.ConditionalExpression.resolveType(ConditionalExpression.java:556)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:374)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.resolve(Expression.java:947)
+	at org.eclipse.jdt.internal.compiler.ast.Block.resolve(Block.java:90)
+	at org.eclipse.jdt.internal.compiler.ast.IfStatement.resolve(IfStatement.java:260)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:456)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:252)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:415)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1148)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1258)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:539)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:763)
+	at org.eclipse.jdt.internal.compiler.ProcessTaskManager.run(ProcessTaskManager.java:137)
+	at java.lang.Thread.run(Thread.java:722)
+!SESSION 2013-07-18 14:06:13.704 -----------------------------------------------
+eclipse.buildId=v21.1.0-569685
+java.version=1.7.0_15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/moynard/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/moynard/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-07-18 14:06:52.150
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.resources 4 2 2013-07-18 14:06:56.148
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at java.lang.String.<init>(String.java:168)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.conditionalArgumentsIncompatibleTypes(ProblemReporter.java:1335)
+	at org.eclipse.jdt.internal.compiler.ast.ConditionalExpression.resolveType(ConditionalExpression.java:556)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:374)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.resolve(Expression.java:947)
+	at org.eclipse.jdt.internal.compiler.ast.Block.resolve(Block.java:90)
+	at org.eclipse.jdt.internal.compiler.ast.IfStatement.resolve(IfStatement.java:260)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:456)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:252)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:415)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1148)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1258)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:539)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:763)
+	at org.eclipse.jdt.internal.compiler.ProcessTaskManager.run(ProcessTaskManager.java:137)
+	at java.lang.Thread.run(Thread.java:722)
+
+!ENTRY org.eclipse.core.resources 4 75 2013-07-18 14:07:01.103
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.jdt.core 4 75 2013-07-18 14:07:01.103
+!MESSAGE Errors running builder 'Java Builder' on project 'WHSStorekeeper'.
+!STACK 0
+java.lang.NullPointerException
+	at java.lang.String.<init>(String.java:168)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.conditionalArgumentsIncompatibleTypes(ProblemReporter.java:1335)
+	at org.eclipse.jdt.internal.compiler.ast.ConditionalExpression.resolveType(ConditionalExpression.java:556)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:374)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.resolve(Expression.java:947)
+	at org.eclipse.jdt.internal.compiler.ast.Block.resolve(Block.java:90)
+	at org.eclipse.jdt.internal.compiler.ast.IfStatement.resolve(IfStatement.java:260)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:456)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:252)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:415)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1148)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1258)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:539)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:763)
+	at org.eclipse.jdt.internal.compiler.ProcessTaskManager.run(ProcessTaskManager.java:137)
+	at java.lang.Thread.run(Thread.java:722)
+!SESSION 2013-07-19 17:09:29.216 -----------------------------------------------
+eclipse.buildId=v21.1.0-569685
+java.version=1.7.0_15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/moynard/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/moynard/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-07-19 17:09:42.319
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2013-07-22 19:58:12.974 -----------------------------------------------
+eclipse.buildId=v21.1.0-569685
+java.version=1.7.0_15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/moynard/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/moynard/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.resources 4 2 2013-07-22 19:58:36.210
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at java.lang.String.<init>(String.java:168)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.conditionalArgumentsIncompatibleTypes(ProblemReporter.java:1335)
+	at org.eclipse.jdt.internal.compiler.ast.ConditionalExpression.resolveType(ConditionalExpression.java:556)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:374)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.resolve(Expression.java:947)
+	at org.eclipse.jdt.internal.compiler.ast.Block.resolve(Block.java:90)
+	at org.eclipse.jdt.internal.compiler.ast.IfStatement.resolve(IfStatement.java:260)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:456)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:252)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:415)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1148)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1258)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:539)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:763)
+	at org.eclipse.jdt.internal.compiler.ProcessTaskManager.run(ProcessTaskManager.java:137)
+	at java.lang.Thread.run(Thread.java:722)
+
+!ENTRY org.eclipse.core.resources 4 75 2013-07-22 19:58:38.856
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.jdt.core 4 75 2013-07-22 19:58:38.856
+!MESSAGE Errors running builder 'Java Builder' on project 'WHSStorekeeper'.
+!STACK 0
+java.lang.NullPointerException
+	at java.lang.String.<init>(String.java:168)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.conditionalArgumentsIncompatibleTypes(ProblemReporter.java:1335)
+	at org.eclipse.jdt.internal.compiler.ast.ConditionalExpression.resolveType(ConditionalExpression.java:556)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:374)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.resolve(Expression.java:947)
+	at org.eclipse.jdt.internal.compiler.ast.Block.resolve(Block.java:90)
+	at org.eclipse.jdt.internal.compiler.ast.IfStatement.resolve(IfStatement.java:260)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:456)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:252)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:415)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1148)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1258)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:539)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:763)
+	at org.eclipse.jdt.internal.compiler.ProcessTaskManager.run(ProcessTaskManager.java:137)
+	at java.lang.Thread.run(Thread.java:722)
+
+!ENTRY com.android.ide.eclipse.adt 4 4 2013-07-22 22:37:50.877
+!MESSAGE Failed
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+	at java.lang.String.charAt(String.java:658)
+	at com.android.tools.lint.checks.TextViewDetector.visitElement(TextViewDetector.java:160)
+	at com.android.tools.lint.client.api.XmlVisitor.visitElement(XmlVisitor.java:169)
+	at com.android.tools.lint.client.api.XmlVisitor.visitElement(XmlVisitor.java:205)
+	at com.android.tools.lint.client.api.XmlVisitor.visitElement(XmlVisitor.java:205)
+	at com.android.tools.lint.client.api.XmlVisitor.visitElement(XmlVisitor.java:205)
+	at com.android.tools.lint.client.api.XmlVisitor.visitFile(XmlVisitor.java:150)
+	at com.android.tools.lint.client.api.LintDriver.checkIndividualResources(LintDriver.java:1617)
+	at com.android.tools.lint.client.api.LintDriver.runFileDetectors(LintDriver.java:888)
+	at com.android.tools.lint.client.api.LintDriver.checkProject(LintDriver.java:785)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:386)
+	at com.android.ide.eclipse.adt.internal.lint.LintJob.run(LintJob.java:153)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui.console 4 120 2013-07-23 02:02:56.194
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.io.IOException: Document is closed
+	at org.eclipse.ui.internal.console.IOConsolePartitioner.streamAppended(IOConsolePartitioner.java:453)
+	at org.eclipse.ui.console.IOConsoleOutputStream.notifyParitioner(IOConsoleOutputStream.java:245)
+	at org.eclipse.ui.console.IOConsoleOutputStream.encodedWrite(IOConsoleOutputStream.java:240)
+	at org.eclipse.ui.console.IOConsoleOutputStream.write(IOConsoleOutputStream.java:225)
+	at org.eclipse.ui.console.MessageConsoleStream.print(MessageConsoleStream.java:56)
+	at com.android.ide.eclipse.ddms.DdmsPlugin.printToStream(DdmsPlugin.java:794)
+	at com.android.ide.eclipse.ddms.DdmsPlugin.access$1(DdmsPlugin.java:790)
+	at com.android.ide.eclipse.ddms.DdmsPlugin$2.printLog(DdmsPlugin.java:178)
+	at com.android.ddmlib.Log.println(Log.java:328)
+	at com.android.ddmlib.Log.e(Log.java:230)
+	at com.android.ddmuilib.logcat.LogCatReceiver$1.run(LogCatReceiver.java:119)
+	at java.lang.Thread.run(Thread.java:722)
+
+!ENTRY org.eclipse.ui.console 4 120 2013-07-23 02:02:56.209
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.io.IOException: Output Stream is closed
+	at org.eclipse.ui.console.IOConsoleOutputStream.encodedWrite(IOConsoleOutputStream.java:230)
+	at org.eclipse.ui.console.IOConsoleOutputStream.write(IOConsoleOutputStream.java:225)
+	at org.eclipse.ui.console.MessageConsoleStream.print(MessageConsoleStream.java:56)
+	at com.android.ide.eclipse.ddms.DdmsPlugin.printToStream(DdmsPlugin.java:796)
+	at com.android.ide.eclipse.ddms.DdmsPlugin.access$1(DdmsPlugin.java:790)
+	at com.android.ide.eclipse.ddms.DdmsPlugin$2.printLog(DdmsPlugin.java:178)
+	at com.android.ddmlib.Log.println(Log.java:328)
+	at com.android.ddmlib.Log.e(Log.java:230)
+	at com.android.ddmuilib.logcat.LogCatReceiver$1.run(LogCatReceiver.java:119)
+	at java.lang.Thread.run(Thread.java:722)
+
+!ENTRY org.eclipse.ui.console 4 120 2013-07-23 02:02:56.213
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.io.IOException: Output Stream is closed
+	at org.eclipse.ui.console.IOConsoleOutputStream.encodedWrite(IOConsoleOutputStream.java:230)
+	at org.eclipse.ui.console.IOConsoleOutputStream.write(IOConsoleOutputStream.java:225)
+	at org.eclipse.ui.console.MessageConsoleStream.print(MessageConsoleStream.java:56)
+	at org.eclipse.ui.console.MessageConsoleStream.println(MessageConsoleStream.java:81)
+	at com.android.ide.eclipse.ddms.DdmsPlugin.printToStream(DdmsPlugin.java:798)
+	at com.android.ide.eclipse.ddms.DdmsPlugin.access$1(DdmsPlugin.java:790)
+	at com.android.ide.eclipse.ddms.DdmsPlugin$2.printLog(DdmsPlugin.java:178)
+	at com.android.ddmlib.Log.println(Log.java:328)
+	at com.android.ddmlib.Log.e(Log.java:230)
+	at com.android.ddmuilib.logcat.LogCatReceiver$1.run(LogCatReceiver.java:119)
+	at java.lang.Thread.run(Thread.java:722)
+!SESSION 2013-07-23 18:54:50.470 -----------------------------------------------
+eclipse.buildId=v21.1.0-569685
+java.version=1.7.0_15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/moynard/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/moynard/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-07-23 18:55:02.378
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.resources 4 2 2013-07-23 18:55:04.297
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at java.lang.String.<init>(String.java:168)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.conditionalArgumentsIncompatibleTypes(ProblemReporter.java:1335)
+	at org.eclipse.jdt.internal.compiler.ast.ConditionalExpression.resolveType(ConditionalExpression.java:556)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:374)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.resolve(Expression.java:947)
+	at org.eclipse.jdt.internal.compiler.ast.Block.resolve(Block.java:90)
+	at org.eclipse.jdt.internal.compiler.ast.IfStatement.resolve(IfStatement.java:260)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:456)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:252)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:415)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1148)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1258)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:539)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:763)
+	at org.eclipse.jdt.internal.compiler.ProcessTaskManager.run(ProcessTaskManager.java:137)
+	at java.lang.Thread.run(Thread.java:722)
+
+!ENTRY org.eclipse.core.resources 4 75 2013-07-23 18:55:06.234
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.jdt.core 4 75 2013-07-23 18:55:06.234
+!MESSAGE Errors running builder 'Java Builder' on project 'WHSStorekeeper'.
+!STACK 0
+java.lang.NullPointerException
+	at java.lang.String.<init>(String.java:168)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.conditionalArgumentsIncompatibleTypes(ProblemReporter.java:1335)
+	at org.eclipse.jdt.internal.compiler.ast.ConditionalExpression.resolveType(ConditionalExpression.java:556)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:374)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.resolve(Expression.java:947)
+	at org.eclipse.jdt.internal.compiler.ast.Block.resolve(Block.java:90)
+	at org.eclipse.jdt.internal.compiler.ast.IfStatement.resolve(IfStatement.java:260)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:456)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:252)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:415)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1148)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1258)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:539)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:763)
+	at org.eclipse.jdt.internal.compiler.ProcessTaskManager.run(ProcessTaskManager.java:137)
+	at java.lang.Thread.run(Thread.java:722)

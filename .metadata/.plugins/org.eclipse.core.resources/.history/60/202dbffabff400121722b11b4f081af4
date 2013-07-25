@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+       android:id="@+id/layoutProducto"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bgproducto"
+         >
+         
+        <TextView
+            android:id="@+id/txtProducto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblProducto"
+            android:layout_centerHorizontal="true"
+           
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/txtSerie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:text="Serie"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/lblserie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignRight="@+id/txtProducto"
+                    android:text="Serie"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/layoutCantidad"
+        android:layout_toRightOf="@+id/layoutProducto"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+    
+        android:background="@drawable/bgproducto"
+         >
+         <TextView
+                android:id="@+id/lblCantidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="Cantidad"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            <TextView
+                android:id="@+id/txtCantidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblCantidad"
+                android:layout_marginTop="5dp"
+                android:text="20"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            <TextView
+                android:id="@+id/txtUnidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblCantidad"
+                android:layout_toRightOf="@+id/txtCantidad"
+                android:layout_marginTop="5dp"
+                android:text="PZAS"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+        
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/layoutLote"
+        android:layout_toRightOf="@+id/layoutProducto"
+        android:layout_below="@+id/layoutCantidad"
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/bgproducto"
+         >
+            <TextView
+                android:id="@+id/lbLote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="Lote"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            <TextView
+                android:id="@+id/txtlote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lbLote"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="lote"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+             <TextView
+                android:id="@+id/txtFecalote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtlote"
+                android:layout_marginTop="10dp"
+                android:text="Fecha lote"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+package com.peanut.adapters;
+
+import android.widget.BaseAdapter;
+
+public class UbicacionAdapter extends BaseAdapter {
+
+}
